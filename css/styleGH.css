@@ -1,0 +1,119 @@
+// @import url("../css/fonts.css");
+// * {
+//   margin: 0;
+//   padding: 0;
+// }
+// .modalWindow,
+// header,
+// .main,
+// .cost,
+// .mafrketing,
+// .mediaProdaction {
+//   width: 100%;
+// }
+// .openForm {
+//   top: 0;
+//   transform: translate(0, 100%);
+//   transition: transform 1000ms ease;
+// }
+// .modalWindow {
+//   height: 270px;
+//   background-color: #fff0;
+//   position: fixed;
+//   top: -270px;
+//   z-index: 9999;
+// }
+// .modalWindow .surfacing {
+//   width: 100%;
+//   height: 100%;
+//   position: absolute;
+//   bottom: 0;
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-between;
+//   background-image: url(../img/slice-1.png);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
+// .modalWindow .surfacing .modalContent {
+//   width: 66%;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+// }
+// .modalWindow .surfacing .modalContent .imgContainer {
+//   width: 35%;
+//   display: flex;
+//   justify-content: center;
+// }
+// .modalWindow .surfacing .modalContent .imgContainer img {
+//   max-width: 15%;
+// }
+// .modalWindow .surfacing .modalContent .line {
+//   width: 55%;
+//   height: 2px;
+//   background-color: #ffffff;
+//   margin: 12% 0 6% 0;
+// }
+// .modalWindow .surfacing .modalContent p {
+//   text-shadow: 0 4px 4px rgba(1, 1, 1, 0.12);
+//   color: #ffffff;
+//   font-family: Helvetica;
+//   font-size: 1.3em;
+//   font-weight: 700;
+//   text-transform: uppercase;
+//   text-align: center;
+//   line-height: 19px;
+//   margin: 0;
+// }
+// .modalWindow .surfacing .formContainer {
+//   width: 33%;
+//   height: 100%;
+//   position: relative;
+// }
+// .modalWindow .surfacing .formContainer #form {
+//   width: 90%;
+//   height: 100%;
+//   position: absolute;
+//   right: 5%;
+//   display: flex;
+//   flex-direction: column;
+// }
+// .modalWindow .surfacing .formContainer #form__name,
+// .modalWindow .surfacing .formContainer #form__phone,
+// .modalWindow .surfacing .formContainer #form__email,
+// .modalWindow .surfacing .formContainer #form__text {
+//   width: 80%;
+//   height: 9.09090909%;
+//   background-color: #d6d6d6;
+//   color: #000000;
+//   font-family: Helvetica;
+//   font-size: 14px;
+//   font-weight: 100;
+//   line-height: 65.48px;
+//   padding-left: 7%;
+//   margin-bottom: 0 !important;
+//   border: none;
+//   border-radius: 6px;
+// }
+// .modalWindow .surfacing .formContainer #form__name {
+//   margin-top: 9.09090909%;
+// }
+// .modalWindow .surfacing .formContainer #form__text {
+//   height: 27.27272727%;
+//   margin-bottom: 0 !important;
+//   line-height: 25px;
+// }
+// .modalWindow .surfacing .formContainer #form__button {
+//   width: 80%;
+//   height: 9.09090909%;
+//   background-color: #0054a6;
+//   color: #ffffff;
+//   font-family: Helvetica;
+//   font-size: 18px;
+//   font-weight: 100;
+//   line-height: 0;
+//   border: none;
+//   border-radius: 6px;
+// }

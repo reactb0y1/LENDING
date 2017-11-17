@@ -1,0 +1,759 @@
+@media only screen and (max-width: 1199px) {
+  .marketing {
+    background-size: contain;
+  }
+}
+@media only screen and (max-width: 1158px) {
+  .cost .accordion__trigger {
+    font-size: 19px;
+  }
+  .cost .accordion__trigger__open {
+    padding: 18px;
+    font-size: 27px;
+    line-height: 10px;
+  }
+  .cost .accordion__target {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 1085px) {
+  .cost .accordion__trigger__open {
+    padding: 20px;
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  header > .container,
+  .main > .container,
+  .cost > .container,
+  .mafrketing > .container,
+  .mediaProdaction > .container {
+    width: 98%;
+  }
+  header {
+    width: 100%;
+    height: 80px;
+    background-color: #1fbedb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 100;
+  }
+  header .openNav {
+    left: 0;
+    transform: translate(100%, 0);
+    transition: transform 1000ms ease;
+  }
+  header .closeNav {
+    left: 100px;
+    transform: translate(200%, 0);
+    transition: transform 1000ms ease;
+  }
+  header nav {
+    width: 95%;
+    margin: auto;
+  }
+  header nav .gamburgOpen {
+    display: block;
+  }
+  header address {
+    margin-right: 0%;
+  }
+  header .containerList {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    z-index: 200;
+  }
+  header .containerList .liAddress {
+    display: none;
+  }
+  header .containerList .liGamburgClose {
+    display: block;
+  }
+  header ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    width: 200px;
+    background-color: #1e497d;
+  }
+  header ul li {
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid blue;
+    list-style: none;
+    padding: 10px 15px;
+  }
+  header ul li:first-child {
+    border-top: none;
+    height: 70px;
+    padding: 0 15px;
+  }
+  header ul li:last-child {
+    border-bottom: none;
+    padding: 0 10px;
+  }
+  header ul li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "HelveticaNeueCyr-Light";
+  }
+  header ul li a:hover,
+  header ul li a:active,
+  header ul li a:focus {
+    color: #d2e6fa;
+    text-decoration: none;
+  }
+  header ul li button {
+    margin-top: 50px;
+    border: none;
+    width: 180px;
+    height: 42px;
+    border-radius: 21px;
+    background-color: #e5fbf9;
+  }
+  header ul li button:hover,
+  header ul li button:active {
+    cursor: pointer;
+    background-color: #e5ebe9;
+  }
+  header ul li button a {
+    color: #000000;
+    font-family: "HelveticaNeueCyr-Light";
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    padding: 8px 0 0 10px;
+  }
+  .cost {
+    height: 667px;
+  }
+  .cost .accordion {
+    width: 47%;
+  }
+  .cost .accordion__trigger {
+    padding: 0.8em;
+  }
+  .cost .accordion__item {
+    margin-bottom: 0;
+  }
+  #mediaProdaction {
+    height: 750px;
+  }
+  #mediaProdaction h1 {
+    font-size: 70px;
+  }
+  #mediaProdaction h2 {
+    width: 80%;
+  }
+  #mediaProdaction .mediaProdaction__accordion__toggle:checked ~ .mediaProdaction__accordion__trigger {
+    padding: 20px 10px 0 2rem;
+    font-size: 28px;
+  }
+  #mediaProdaction .mediaProdaction__accordion__toggle:checked ~ .mediaProdaction__accordion__target {
+    padding: 1.5rem 2rem 2rem 2rem;
+  }
+  footer {
+    height: 880px;
+  }
+  footer address {
+    width: 95%;
+    flex-wrap: wrap;
+    height: 300px;
+  }
+  footer address .contact,
+  footer address .email,
+  footer address .phone,
+  footer address .location {
+    padding-right: 0;
+    margin-right: 13%;
+    margin-top: 40px;
+  }
+  footer address .contact {
+    margin-right: 10%;
+  }
+  footer address .email {
+    padding-right: 43px;
+  }
+}
+@media only screen and (max-width: 991px) and screen and (-webkit-min-device-pixel-ratio: 0) {
+  header .containerList {
+    left: -405px;
+  }
+}
+@media only screen and (max-width: 991px) and screen and (-webkit-min-device-pixel-ratio: 0) {
+  header ul {
+    width: 200%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .cost {
+    height: 1280px;
+  }
+  .cost h1 {
+    margin-top: 20px;
+  }
+  .cost .accordion {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .cost .accordion__trigger {
+    padding: 1.2em;
+    font-size: 21px;
+    font-weight: 700;
+  }
+  .cost .accordion__item {
+    margin-bottom: 10px;
+  }
+  #mediaProdaction {
+    height: 1240px;
+  }
+  #mediaProdaction h2 {
+    width: 80%;
+  }
+  #mediaProdaction .mediaProdaction__accordion {
+    width: 95%;
+    top: 320px;
+    right: 2.5%;
+  }
+  #mediaProdaction .mediaProdaction__img {
+    width: 100%;
+    left: 0;
+  }
+  #mediaProdaction .mediaProdaction__img img {
+    width: 90%;
+    left: 5%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  footer address .contact,
+  footer address .email,
+  footer address .phone,
+  footer address .location {
+    margin-right: 9%;
+  }
+  footer address .contact,
+  footer address .email,
+  footer address .phone,
+  footer address .location {
+    margin-top: 65px;
+  }
+  footer address .contact h5,
+  footer address .email h5,
+  footer address .phone h5,
+  footer address .location h5,
+  footer address .contact h6,
+  footer address .email h6,
+  footer address .phone h6,
+  footer address .location h6 {
+    font-size: 15px;
+  }
+  footer address .contact p,
+  footer address .email p,
+  footer address .phone p,
+  footer address .location p {
+    font-size: 13px;
+  }
+  footer address .contact p {
+    color: #000000;
+    font-weight: 200;
+  }
+  footer address .email {
+    padding-right: 30px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .main {
+    height: 850px;
+  }
+  .cost {
+    height: 930px;
+  }
+  .cost .findCost {
+    bottom: 150px;
+  }
+  .marketing {
+    height: 890px;
+  }
+  .marketing__head {
+    top: 176px;
+  }
+  .marketing__text {
+    top: 216px;
+  }
+  #mediaProdaction {
+    height: 960px;
+  }
+  #mediaProdaction h1 {
+    margin-top: 50px;
+  }
+  #mediaProdaction .mediaProdaction__accordion {
+    top: 400px;
+  }
+  footer {
+    height: 1010px;
+  }
+  footer address {
+    height: 200px;
+  }
+  footer .map {
+    height: 630px;
+  }
+  footer .footer__bottom {
+    height: 180px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  header nav .language {
+    top: 0;
+    position: relative;
+  }
+}
+@media only screen and (max-width: 991px) {
+  header nav .language__RU,
+  header nav .language__EN {
+    width: 60px;
+    height: 30px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  header nav .language__RU {
+    width: 60px;
+    height: 30px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  header nav .language__RU a {
+    line-height: 30px;
+  }
+  header nav .language__RU a:hover {
+    text-decoration: underline;
+  }
+}
+@media only screen and (max-width: 991px) {
+  header nav .language__EN {
+    position: absolute;
+    right: 30px;
+    top: 0;
+    width: 60px;
+    height: 30px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  header nav .language__EN a {
+    line-height: 30px;
+  }
+  header nav .language__EN a:hover {
+    text-decoration: underline;
+  }
+}
+@media (max-width: 991px) {
+  header ul li .liAddress {
+    margin-right: 0%;
+  }
+}
+header ul li address {
+  margin: 0 70% 0 0;
+  min-width: 170px;
+}
+@media only screen and (max-width: 1700px) {
+  header ul li address {
+    margin-right: 70%;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  header ul li address {
+    margin-right: 59%;
+  }
+}
+@media only screen and (max-width: 1158px) {
+  header ul li address {
+    margin-right: 50%;
+  }
+}
+@media only screen and (max-width: 1099px) {
+  header ul li address {
+    margin-right: 34%;
+  }
+}
+@media (max-width: 991px) {
+  header ul li address {
+    margin-right: 0%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .main {
+    height: 630px;
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .main .containerCircle {
+    top: 330px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .main .containerCircle {
+    top: 61%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .main .containerCircle .containerCircle2Transform {
+    transform: translate(800%, 0) rotate(360deg);
+  }
+}
+@media only screen and (max-width: 991px) {
+  .main .bigCircle {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .main .bigCircle {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .main .littleCercle1,
+  .main .littleCercle2,
+  .main .littleCercle3 {
+    width: 75px;
+    height: 75px;
+    top: 37.5px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .main .littleCercle1,
+  .main .littleCercle2,
+  .main .littleCercle3 {
+    width: 50px;
+    height: 50px;
+    top: 25px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .main .littleCercle1 p,
+  .main .littleCercle2 p,
+  .main .littleCercle3 p {
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .main .littleCercle1 p,
+  .main .littleCercle2 p,
+  .main .littleCercle3 p {
+    font-size: 30px;
+  }
+}
+.main .littleCercle1 p {
+  left: -400px;
+}
+@media only screen and (min-width: 1700px) {
+  .main .littleCercle1 p {
+    left: -480px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .main .littleCercle1 p {
+    left: -380px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .main .littleCercle1 p {
+    left: -240px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .main .littleCercle1 p {
+    left: -170px;
+  }
+}
+.main .littleCercle2 p {
+  left: -480px;
+}
+@media only screen and (min-width: 1700px) {
+  .main .littleCercle2 p {
+    left: -560px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .main .littleCercle2 p {
+    left: -460px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .main .littleCercle2 p {
+    left: -300px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .main .littleCercle2 p {
+    left: -210px;
+  }
+}
+.main .littleCercle3 p {
+  left: -310px;
+}
+@media only screen and (min-width: 1700px) {
+  .main .littleCercle3 p {
+    left: -390px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .main .littleCercle3 p {
+    left: -290px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .main .littleCercle3 p {
+    left: -175px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .main .littleCercle3 p {
+    left: -125px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .cost {
+    height: 870px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .cost {
+    height: 1280px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .cost .accordion {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .cost .accordion {
+    margin-left: 2.5%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .cost .findCost {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .cost .findCost {
+    width: 90%;
+    bottom: 60px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .marketing__head {
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .marketing__text {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #mediaProdaction {
+    height: 1170px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #mediaProdaction h1 {
+    font-size: 70px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #mediaProdaction h2 {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #mediaProdaction .mediaProdaction__accordion {
+    margin-right: 2.5%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #mediaProdaction .mediaProdaction__accordion {
+    width: 90%;
+    margin-right: 5%;
+    top: 410px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #mediaProdaction .mediaProdaction__accordion__trigger__open {
+    padding: 30px 20px 0 2rem;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #mediaProdaction .mediaProdaction__accordion__trigger {
+    padding: 0.5em;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #mediaProdaction .mediaProdaction__accordion__target__open {
+    padding: 2rem 6rem 3rem 2rem;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #mediaProdaction .mediaProdaction__img {
+    left: 2.5%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #mediaProdaction .mediaProdaction__img {
+    width: 90%;
+    left: 5%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .modalWindow {
+    height: 260px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .modalWindow .surfacing .modalContent {
+    width: 75%;
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .modalWindow .surfacing .modalContent .imgContainer img {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .modalWindow .surfacing .modalContent .imgContainer img {
+    max-width: 25%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .modalWindow .surfacing .modalContent .imgContainer img {
+    max-width: 35%;
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .modalWindow .surfacing .modalContent .line {
+    margin: 5% 0 3% 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .modalWindow .surfacing .modalContent p {
+    font-size: 1em;
+    line-height: 15px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .modalWindow .surfacing .formContainer {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .modalWindow .surfacing .formContainer #form__name,
+  .modalWindow .surfacing .formContainer #form__phone,
+  .modalWindow .surfacing .formContainer #form__email,
+  .modalWindow .surfacing .formContainer #form__text {
+    font-size: 12px;
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .modalWindow .surfacing .formContainer #form__name,
+  .modalWindow .surfacing .formContainer #form__phone,
+  .modalWindow .surfacing .formContainer #form__email,
+  .modalWindow .surfacing .formContainer #form__text {
+    height: 16%;
+    margin-bottom: -15px;
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .modalWindow .surfacing .formContainer #form__name {
+    margin-top: 3%;
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .modalWindow .surfacing .formContainer #form__text {
+    margin-bottom: -12px;
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .modalWindow .surfacing .formContainer #form__button {
+    margin-bottom: 3%;
+    height: 17%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .modalWindow .surfacing .formContainer #form__button {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  footer #adress_RU .contact,
+  footer #adress_RU .email,
+  footer #adress_RU .phone,
+  footer #adress_RU .location {
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 1158px) {
+  footer #adress_RU .contact p,
+  footer #adress_RU .email p,
+  footer #adress_RU .phone p,
+  footer #adress_RU .location p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1085px) {
+  footer #adress_RU .contact p,
+  footer #adress_RU .email p,
+  footer #adress_RU .phone p,
+  footer #adress_RU .location p {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  footer #adress_RU .contact p,
+  footer #adress_RU .email p,
+  footer #adress_RU .phone p,
+  footer #adress_RU .location p {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  footer #adress_RU .email {
+    padding-right: 164px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  footer #adress_RU .email {
+    padding-right: 114px;
+    margin-right: 40px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  footer #adress_RU .email {
+    padding-right: 103px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  footer #adress_RU .location {
+    margin-right: 14%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  footer #adress_RU .location {
+    margin-right: 0;
+  }
+}
